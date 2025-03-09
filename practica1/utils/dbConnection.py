@@ -3,10 +3,10 @@ import mysql.connector
 def get_connection():
     try:
         connection = mysql.connector.connect(
-            host="127.0.0.1",  # Cambia si usas otro host
-            user="codiego",  # Cambia por tu usuario de MySQL
-            password=".Diegonidian08",  # Cambia por tu contraseña
-            database="biblioteca"  # Nombre de tu base de datos
+            host="127.0.0.1",  
+            user="codiego",  
+            password=".Diegonidian08",  
+            database="biblioteca" 
         )
         return connection
     except mysql.connector.Error as err:
